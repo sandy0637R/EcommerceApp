@@ -1,0 +1,105 @@
+
+.transaction-background{
+    display: flex;
+    justify-content: center;
+}
+
+.transaction-container {
+    width: 600px;
+    height: 650px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--border);
+    box-shadow: 0px 0px 10px var(--shadow);
+    margin-top: 50px;
+  }
+  
+  .transaction-head-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    padding: 40px;
+    background-color: var(--dark_grey);
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    border: 1px solid var(--border);
+    box-shadow:  0px 0px 5px var(--dark_grey);
+  }
+  
+  .bill-details{
+    padding: 10px;
+    height: 300px;
+  }
+
+  .bill-details-heading{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .bill-all-items{
+    overflow-y: auto;
+    height: 80%;
+    margin: 25px;
+    padding: 20px;
+    border: 2px solid var(--border);
+    box-shadow: inset 0px 0px 5px var(--shadow);
+  }
+  
+  .bill-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+  }
+
+  .tp-details{
+    width: 350px;
+    border-right: 2px solid var(--dark_grey);
+    padding-right: 10px;
+  }
+
+  .tp-price{
+    width: 75px;
+    font-weight: 600;
+  }
+  
+  .total-price {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+  .transacti-content-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .continue-button {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 10px 0px;
+    background-color: var(--dark_grey);
+    padding: 10px 50px;
+    color: var(--white);
+    border-radius: 5px;
+  }
+
+  .purchase-button{
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: var(--dark_grey);
+    padding: 10px 50px;
+    color: var(--white);
+    border-radius: 5px;
+
+  }
+  
+  .continue-button:hover, .purchase-button:hover {
+    background-color: var(--white);
+    box-shadow: 0px 0px 5px var(--dark_grey);
+    color: var(--dark_grey);
+    font-weight: 600;
+  }

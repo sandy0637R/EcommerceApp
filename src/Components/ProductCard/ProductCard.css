@@ -1,0 +1,113 @@
+.products{
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .product-sec{
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    width: 300px;
+    margin: 20px 0px;
+    border-radius: 25px;
+    background-color: var(--white);
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px var(--shadow);
+  }
+  
+  .product-img-sec{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+  }
+  
+  .product-content-sec{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-text-sec{
+    padding: 5px;
+  }
+  
+  .product-text-sec p{
+    margin-bottom: 10px;
+  }
+  .product-button-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-sub-sec{
+      display: flex;
+  }
+    
+  .cart-button{
+    color: var(--white);
+    padding: 6px;
+    background-color: var(--dark_grey);
+    border-radius: 5px;
+    border: none;
+    width: 230px;
+   }
+
+  .viewproduct-button{
+    color: var(--white);
+    padding: 6px;
+    width: 275px;
+    margin-bottom: 7px;
+    background-color: var(--dark_grey);
+    border: none;
+    border-radius: 5px;
+  }
+  .wishlist{
+    padding: 7px 12px;
+    width: 40px;
+    background-color: var(--dark_grey);
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+  }
+
+  .wishlist:hover, .viewproduct-button:hover, .cart-button:hover{
+    background-color: var(--white);
+    box-shadow: 0px 0px 5px var(--dark_grey);
+    color: var(--dark_grey);
+    font-weight: 600;
+  }
+  
+  .product-title{
+    font-size: 16px;
+    font-weight: 600;
+    height: 65px;
+  }
+  
+  .content-sub-sec{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-price{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: 40px;
+    color: var(--green-dark);
+  }
+
+
+  

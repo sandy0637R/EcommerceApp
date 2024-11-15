@@ -1,0 +1,17 @@
+.Display-products-sec{
+    display: flex;
+    padding: 2px;
+    background-color: var(--dark_grey);
+    margin-top: 10px;
+}
+
+.HomeContainer{
+    overflow-y: auto;
+    height: 700px;
+    padding: 0px 0px;
+    background-color: white;
+    border-radius: 5px;
+    width: 1500px;
+    /* border: 2px solid var(--border);
+    box-shadow: inset 0px 0px 5px var(--shadow); */
+}

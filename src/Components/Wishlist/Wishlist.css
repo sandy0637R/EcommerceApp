@@ -1,0 +1,117 @@
+.wishlist-sec {
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    width: 300px;
+    margin: 20px 0px;
+    border-radius: 25px;
+    background-color: var(--white);
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px var(--shadow);
+}
+
+.wishlist-img-sec {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wishlist-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.wishlist-content-sec {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wishlist-text-sec {
+    padding: 5px;
+}
+
+.wishlist-text-sec p {
+    margin-bottom: 10px;
+}
+
+.wishlist-sub-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishlist-button-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wishlist-button {
+    color: var(--white);
+    padding: 5px;
+    background-color: var(--dark_grey);
+    border-radius: 5px;
+    border: none;
+    width: 275px;
+    margin-bottom: 5px;
+}
+
+.wishlist-remove-button{
+    color: var(--white);
+    padding: 6px;
+    background-color: var(--dark_grey);
+    border-radius: 5px;
+    border: none;
+    width: 135px;
+    margin-right: 5px;
+}
+
+.wishlist-viewproduct-button {
+    color: var(--white);
+    padding: 5px;
+    width: 250px;
+    margin-right: 10px;
+    background-color: var(--dark_grey);
+    border: none;
+    border-radius: 5px;
+}
+
+.wishlist-addtocart{
+    color: var(--white);
+    padding: 6px;
+    width: 135px;
+    background-color: var(--dark_grey);
+    border: none;
+    border-radius: 5px;
+}
+
+.wishlist-addtocart:hover, .wishlist-remove-button:hover, .wishlist-button:hover{
+    background-color: var(--white);
+    box-shadow: 0px 0px 5px var(--dark_grey);
+    color: var(--dark_grey);
+    font-weight: 600;
+}
+
+.wishlist-title {
+    font-size: 16px;
+    font-weight: 600;
+    height: 65px;
+}
+
+.content-sub-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishlist-price {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: 40px;
+    color: var(--green-dark);
+}
+
+
+

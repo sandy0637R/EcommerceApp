@@ -1,0 +1,123 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark_grey);
+    color: var(--white);
+    padding: 15px;
+    position: sticky;
+    box-shadow: 0px 1px 1px var(--white);
+    top: 0;
+    z-index: 2;
+  }
+  
+  .navbar-logo-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo{
+    font-size: 1.5em;
+    color: white;
+  }
+  
+  .search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-color: var(--white);
+    color: var(--dark_grey);
+    font-size: 1.2em;
+    border-radius: 10px;
+  }
+  
+  .search-icon-section{
+    padding: 2px 5px;
+  }
+  
+  .search-input {
+    font-size: 0.8em;
+    width: 500px;
+    padding: 1px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--white);
+    transition: background-color 0.3s;
+}
+
+.search-input::placeholder {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.search-input:focus {
+    border: none;
+}
+
+  .cart{
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    padding: 0px 2px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .wishlist-display{
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .cart-icon{
+    font-size: 2.2em;
+    color: var(--white);
+  }
+  .counter{
+    color: var(--dark_grey);
+    font-weight: 800;
+    position: absolute;
+    font-size: 0.8em;
+    left: 16.5px;
+    top: 2.5px;
+  }
+  .wishlist-counter{
+    color: var(--dark_grey);
+    font-weight: 800;
+    position: absolute;
+    font-size: 0.8em;
+    left: 20px;
+    top: 6.5px;
+  }
+  .navbar-button-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.user-icon{
+    font-size: 1.3em;
+    margin-top: 5px;
+}
+
